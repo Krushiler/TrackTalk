@@ -1,0 +1,4 @@
+keyAlias=android
+keyPassword=CHANGE_ME
+storeFile=key/release.keystore
+storePassword=CHANGE_ME

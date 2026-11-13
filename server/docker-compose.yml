@@ -1,0 +1,14 @@
+# Requires ./gradlew :server:installDist first. Listens on port 8000, like gms_server.
+services:
+  tracktalk-server:
+    build:
+      context: ./build/install/server
+      dockerfile: ../../../Dockerfile
+    container_name: tracktalk-server
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8000"

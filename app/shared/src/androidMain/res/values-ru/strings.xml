@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_sync_channel_name">Трансляция геолокации</string>
+    <string name="location_sync_channel_description">Продолжает делиться вашей геолокацией с друзьями в фоне</string>
+    <string name="location_sync_notification_title">Трансляция геолокации</string>
+    <string name="location_sync_notification_text">Ваша геолокация передаётся друзьям</string>
+    <string name="location_sync_tile_label">Трансляция геолокации</string>
+</resources>

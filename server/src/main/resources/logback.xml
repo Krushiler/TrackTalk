@@ -1,0 +1,16 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{YYYY-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- TRACE dumps the full Ktor route tree and every SQL statement into the
+         Gradle run console, so Android Studio keeps writing for the whole server lifetime. -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+    <logger name="org.eclipse.jetty" level="INFO"/>
+    <logger name="io.netty" level="INFO"/>
+    <logger name="io.ktor" level="INFO"/>
+    <logger name="Exposed" level="INFO"/>
+</configuration>

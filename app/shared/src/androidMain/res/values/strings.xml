@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_sync_channel_name">Location sharing</string>
+    <string name="location_sync_channel_description">Keeps sharing your location with friends in the background</string>
+    <string name="location_sync_notification_title">Sharing location</string>
+    <string name="location_sync_notification_text">Your location is being shared with friends</string>
+    <string name="location_sync_tile_label">Location sharing</string>
+</resources>

@@ -1,0 +1,8 @@
+## Copy to local.properties. That file is not committed.
+sdk.dir=/path/to/Android/sdk
+
+# Optional override for the Android "local" flavor. Default is http://10.0.2.2:8080
+# tracktalk.baseUrl=http://10.0.2.2:8080
+
+# Map tile key. Stored only in local.properties so it stays out of source.
+# tracktalk.mapKey=
